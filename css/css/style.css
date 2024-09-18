@@ -1,6 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 0;
+}
 h1 {
     color:rgb(49, 112, 228);
     font-size: 60px;
