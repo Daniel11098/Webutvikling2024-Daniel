@@ -1,0 +1,51 @@
+html{
+    font-size: 18px;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Hoved-header{
+    background-image: url("../bilder/barca12.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 150px 0;
+
+}
+.Store-menu{ 
+    display: flex;
+  list-style: none;
+  gap: 3rem;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: white;
+  padding-top: 100px;
+  margin: 12px;
+}
+#Sko{
+    color: #ffffff;
+}
+#dommertøy{
+   color: #ffffff;
+}
+#treningsklær{
+    color: #ffffff;
+}
+#drakter{
+    color: #ffffff;
+}
+.Overskrift{
+    max-width: 150px;
+  display: flex;
+  margin: 12px auto;
+  padding-bottom: 250px;
+  padding-left: 40px;
+}
+.nav1{
+    width: 100%; /* Full bredde på navigasjonen */
+    background-color: #f8f8f8; /* Lys bakgrunnsfarge */
+    padding: 10px 0; /* Litt padding rundt navigasjonen */
+}
