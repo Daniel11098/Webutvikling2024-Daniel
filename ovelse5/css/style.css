@@ -1,21 +1,39 @@
+*{
+    box-sizing: border-box;
+}
 html{
     font-size: 18px;
 }
 body{
     
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 .Hoved-header{
     background-image: url("../bilder/barca12.jpeg");
     background-size: cover;
     background-position: center;
+    width: 100%;
     color: white;
     text-transform: uppercase;
     padding: 150px 0;
 
 }
-.Store-menu{ 
+.Store-menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 2rem;
+}
+/*.Store-menu{ 
     display: flex;
   list-style: none;
   gap: 3rem;
@@ -24,7 +42,7 @@ body{
   color: white;
   padding-top: 100px;
   margin: 12px;
-}
+}*/
 #Sko{
     color: #ffffff;
 }
