@@ -130,8 +130,6 @@ aside, img{
 
 
 footer{
-    display: flex;
-    flex-wrap: wrap;
     background-color: black;
     width: 100%;
 }
