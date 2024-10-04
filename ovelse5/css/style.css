@@ -24,11 +24,11 @@ header, nav, main, aside, footer{
     flex-wrap: wrap;
     background-image: url("../bilder/barca12.jpeg");
     background-size: cover;
-    background-position: center;
+    text-align: center;
     width: 100%;
     color: white;
     text-transform: uppercase;
-    padding: 150px 0;
+    padding: 5rem;
     height: 639px;
 
 }
@@ -50,21 +50,10 @@ header, nav, main, aside, footer{
   padding-top: 100px;
   margin: 12px;
 }*/
-#Sko{
-    color: #ffffff;
-}
-#dommertøy{
-   color: #ffffff;
-}
-#treningsklær{
-    color: #ffffff;
-}
-#drakter{
-    color: #ffffff;
-}
 .Overskrift{
     max-width: 150px;
   display: flex;
+  flex-wrap: wrap;
   margin: 12px auto;
   padding-bottom: 250px;
   padding-left: 50px;
@@ -74,10 +63,13 @@ header, nav, main, aside, footer{
     width: 100%; /* Full bredde på navigasjonen */
     padding-left: 15px;
 }
+.nav1 ul li a{
+    color: black;
+    text-decoration: none;
+}
 .Store-menu a:hover{
     text-decoration: underline;
 }
-
 main{
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +102,11 @@ main article{
     min-width: 250px;
     flex-grow: 1;
 }
+.Andre_artikkeler article {
+    border: 1px solid;
+    box-shadow: 2px 4px;
+    padding: 10px;
+} 
 
 aside{
     display: flex;
@@ -137,11 +134,16 @@ footer{
 .footer-menu{
     display: flex;
     flex-wrap: wrap;
-    color: #ffffff;
     list-style: none;
     padding-bottom: 150px;
     padding-top: 150px;
     gap: 3rem;
+}
 
-    
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-menu li a:hover{
+    text-decoration: underline;
 }
