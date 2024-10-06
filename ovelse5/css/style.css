@@ -106,7 +106,15 @@ main article{
     border: 1px solid;
     box-shadow: 2px 4px;
     padding: 10px;
-} 
+}
+.Andre_artikkeler article a{
+    text-decoration: none;
+    color: black;
+}
+.Andre_artikkeler a:hover{
+    text-decoration:underline;
+}
+ 
 
 aside{
     display: flex;
