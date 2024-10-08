@@ -15,6 +15,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: auto auto auto;
+    row-gap: 2rem;
 }
 #global-header{
     grid-column-start: 1;
@@ -23,6 +24,16 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     /*grid-row:1/2;*/
+}
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #dbd9c6;
+
+    img{
+        max-width: 70%;
+    }
 }
 main{
     grid-column-start: 2;
@@ -37,6 +48,9 @@ main nav ul{
     margin: 0;
     gap: 1rem;
     text-decoration: none;
+    a{
+        color: #000;
+    }
 
 }
 #category-menu{
