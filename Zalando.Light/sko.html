@@ -7,8 +7,9 @@
         <title>Zalando Light / Forside</title>
     </head>
     <body>
+        <div id="grid-container">
         <header>
-            <img id="main-logo" src="img/zalando-logo-0.png" alt="Nettsted logo">
+            <img id="global-header" src="img/zalando-logo-0.png" alt="Nettsted logo">
             <nav class="flex-space-b">
                 <ul class="flex-menu">
                     <li><a href="index.html">Hjem siden</a></li>
@@ -30,6 +31,21 @@
                 </form>
             </nav>
         </header>
+        <aside id="category-menu">
+            <nav>   
+                <ul>
+                    <li>
+                        sko
+                        <ul>
+                            <li>Sandaler</li>
+                            <li>Pumps</li>
+                            <li>Høye hæler</li>
+                            <li>Joggesko</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
         <main>
             <nav>
                 <ul>
@@ -38,21 +54,6 @@
                 </ul>
             </nav>
             <h1>Sko til Dame</h1>
-            <aside>
-                <nav>
-                    <ul>
-                        <li>
-                            sko
-                            <ul>
-                                <li>Sandaler</li>
-                                <li>Pumps</li>
-                                <li>Høye hæler</li>
-                                <li>Joggesko</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </aside>
             <section>
                 <h2>Produkter</h2>
                 <form>
@@ -68,62 +69,62 @@
                         <option value="sort">Høyest pris</option>
                      </select>
                 </form>
-                <section>
-                    <article>
+                <section class="flex-space-b">
+                    <article class="product-card">
                         <img id="main-logo" src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
                         <a href="#">Adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
@@ -133,4 +134,5 @@
             </section>
         </main>
         <footer>Zalando Light 2024</footer>
+    </div>
 </html>

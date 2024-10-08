@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0ece9;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: auto auto auto auto;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    padding: 40px;
+    font-size: x-large;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#mansory-grid{
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    gap: 0.5rem;
+
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4 ;
+}
+
+#natur, #science, #animal, #tech, #culture, #history, #geo, #food{
+    padding:3rem;
+    border-radius: 10px;
+}
+
+#natur{
+        background-color: hsl(146, 52%, 72%);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+    }
+
+    #science{
+        background-color:hsl(0, 0%, 100%);
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+    #animal{
+        background-color: hsl(337, 52%, 72%);
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+
+    #tech{
+        background-color: hsl(204, 52%, 72%);
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #culture{
+        background-color: hsl(271, 52%, 72%);
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+
+    }
+    #history{
+        background-color: hsl(8, 52%, 72%);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    #geo{
+        background-color: hsl(168, 52%, 72%);
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start:3;
+        grid-row-end: 4;
+
+    }
+    #food{
+        background-color: hsl(30, 52%, 72%);
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
