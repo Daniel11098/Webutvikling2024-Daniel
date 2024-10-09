@@ -124,7 +124,7 @@ img{
     padding: 1rem;
   }
 
-
+/* Andre steget*/
 /*DESKTOP*/
 @media only screen and (min-width:800px){
     .fa-bars{
@@ -150,7 +150,6 @@ img{
 
     header, main, aside, footer{
         grid-column: 1/2;
-
     }
 
     header{
