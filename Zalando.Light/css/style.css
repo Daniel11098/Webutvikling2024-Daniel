@@ -1,5 +1,5 @@
 html{
-    font-size: 18px;
+    font-size: calc(1rem + 1vw)
 }
 
 
@@ -11,6 +11,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+h1{font-size: 2rem;}
+h2{font-size: 1.8 rem;}
+h3{font-size: 1.6rem;}
+h4{font-size: 1.4rem;}
+p, a{font-size: 1rem;}
 #grid-container{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -30,10 +36,19 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #dbd9c6;
+    justify-content: space-between;
 
     img{
         max-width: 70%;
     }
+}
+#banner div{
+    width: 30%;
+    padding: 1rem;
+}
+
+#banner div h2{
+    font-size: 1rem ;
 }
 main{
     grid-column-start: 2;
@@ -133,6 +148,9 @@ img{
     #menu{
         display: flex !important;
     }
+
+    h3{font-size: 1.2rem;}
+    p, a{font-size: 0.6rem;}
 
 
 }

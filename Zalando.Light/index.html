@@ -14,6 +14,7 @@
         <header id="global-header">
             <img id="main-logo" src="img/zalando-logo-0.png" alt="Nettsted logo">
             <nav class="flex-space-b">
+                <!-- Første steget -->
                 <i class="fa-solid fa-bars" onclick="toggelmenu()"></i>
                 <ul class="flex-menu" id="menu">
                     <li><a href="#">Nyheter</a></li>
@@ -44,19 +45,32 @@
             <section class="flex-space-b">
                 <h2>Produkter</h2>
                 <article class="product-card">
-                    <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
+                    <!-- Det er slik man koder responsive b-->
+                    <picture>
+                        <source media="(max-width:400px)" srcset="img/sko/produktbilde200x288.jpg">
+                        <source media="(max-width:800px)" srcset="img/sko/produktbilde400x576.jpg">
+                        <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
+                    </picture>
                     <a href="#">Adidas Originals</a>
                     <a href="#"><h3>Handbal Spezial</h3></a>
                     <p>1299 kr</p>
                 </article>
                 <article class="product-card">
-                    <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
+                    <picture>
+                        <source media="(max-width:400px)" srcset="img/sko/jordan-1-lilla.jpg">
+                        <source media="(max-width:800px)" srcset="img/sko/produktbilde400x576.jpg">
+                        <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
+                    </picture>
                     <a href="#">Adidas Originals</a>
                     <a href="#"><h3>Handbal Spezial</h3></a>
                     <p>1299 kr</p>
                 </article>
-                <articlec lass="product-card">
-                    <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
+                <article class="product-card">
+                    <picture>
+                        <source media="(max-width:400px)" srcset="img/sko/produktbilde200x288.jpg">
+                        <source media="(max-width:800px)" srcset="img/sko/produktbilde400x576.jpg">
+                        <img src="img/lyseblå.adidds.webp" alt="HANDBALL SPEZIAL-Adidas Originals">
+                    </picture>
                     <a href="#">Adidas Originals</a>
                     <a href="#"><h3>Handbal Spezial</h3></a>
                     <p>1299 kr</p>
@@ -111,6 +125,7 @@
             <a href="#global-header">Tilbake til top</a>
         </footer>
     </div>
+    <!-- Trjede steget -->
     <script>
         let toggelmenu =()=>{
             let x = document.getElementById("menu")
