@@ -1,4 +1,5 @@
 html{
+    /*Det er slik man koder for responsiv skrift*/
     font-size: calc(1rem + 1vw)
 }
 
