@@ -134,4 +134,15 @@ footer{
         grid-row-end: 4;
         background-color: #403b3b;
         color: white;
+    h3{
+        padding: 39px;
+        margin: 0;
+    }
+}
+footer section ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
 }
