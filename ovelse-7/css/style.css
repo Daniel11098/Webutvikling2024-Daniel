@@ -75,6 +75,13 @@ main{
     color: white;
     background-color: #094884;
 }
+figure{
+    margin: 0;
+    padding: 0;
+    img{
+        width: 100%;
+    }
+}
 
 footer{
 
@@ -82,5 +89,6 @@ footer{
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
-        background-color: beige;
+        background-color: #403b3b;
+        color: white;
 }
