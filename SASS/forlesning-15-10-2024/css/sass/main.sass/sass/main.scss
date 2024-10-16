@@ -1,8 +1,15 @@
-@import 'loginn.scss';
-@import 'colors.scss';
-@import 'layout.scss';
+@use 'loginn';
+@use 'layout';
+@use 'colors' as B;
+@use 'font'as *;
+*{
+    box-sizing: border-box;
+}
 
 body{
-    background-color: aqua;
+    background-color: B.$black;
     height: 100vh;
+    font-family: $mainFont;
+    background-image: url('https://picsum.photos/1200/1200');
+    background-size: cover;
 }

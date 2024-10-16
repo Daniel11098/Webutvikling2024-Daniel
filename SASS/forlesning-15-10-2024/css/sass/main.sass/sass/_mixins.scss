@@ -1,0 +1,15 @@
+@mixin box($width, $height, $padding, $bradius){
+    width: 100%;
+    max-width: $width;
+    height: $height;
+    padding:$padding;
+    border-radius: $bradius;
+
+}
+
+@mixin flexbox($direction, $Wrap, $gap){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $Wrap;
+    gap: $gap;
+}
