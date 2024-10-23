@@ -146,3 +146,24 @@ footer section ul{
     flex-direction: column;
     gap: 1rem;
 }
+
+@media only screen and (min-width:800px){
+    header, main, footer{
+        display: grid;
+        grid-column: 1/4;
+    }
+
+    header{
+        grid-row: 1/2
+    }
+
+    main{
+        grid-row: 2/3
+    }
+
+    footer{
+        grid-row: 3/4;
+    }
+
+
+}

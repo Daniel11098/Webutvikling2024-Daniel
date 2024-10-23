@@ -1,0 +1,7 @@
+@use 'varibeles'as *;
+@use 'layout'as *;
+body{
+
+    background-color: rgba(255, 255, 255, 200);
+    font-family: $mainFont;
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+#navigeringsmeny {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  position: fixed;
+  bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Inria Serif", serif;
+}/*# sourceMappingURL=main.css.map */

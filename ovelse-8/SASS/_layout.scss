@@ -1,0 +1,21 @@
+
+#navigeringsmeny{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: fixed;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
