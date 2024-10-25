@@ -15,11 +15,6 @@ body{
     flex-wrap: wrap;
     height: 100vh;
 }
-
-.skip{
-    position: absolute;
-    top: -1000px;
-}
 header, nav, main, aside, footer{
     flex-grow: 1;
     padding: 1rem;
@@ -27,7 +22,7 @@ header, nav, main, aside, footer{
 .Hoved-header{
     display: flex;
     flex-wrap: wrap;
-    background-image: url("../bilder/barca12.jpeg");
+    background-color: black;
     background-size: cover;
     text-align: center;
     width: 100%;
