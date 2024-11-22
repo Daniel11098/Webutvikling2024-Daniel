@@ -14,10 +14,11 @@ body{
 }
 
 h1{font-size: 2rem;}
-h2{font-size: 1.8 rem;}
+h2{font-size: 1.8rem;}
 h3{font-size: 1.6rem;}
 h4{font-size: 1.4rem;}
 p, a{font-size: 1rem;}
+
 #grid-container{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
